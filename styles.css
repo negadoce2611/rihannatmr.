@@ -48,6 +48,11 @@ p {
 .categoria-videos img {
     opacity: 0.5;
     height: 200px;
+}.portfolio img {
+    opacity: 0.5;
+}
+.portfolio img:hover {
+    opacity: 1.0;
 }
 
 .categoria-videos img:hover {
@@ -57,4 +62,16 @@ p {
 
 .categoria h2 {
     color: rgb(42, 122, 228);
+}.portfolio img {
+    opacity: 0.5;
 }
+.portfolio img:hover {
+    opacity: 1.0;
+}<section class="categoria">
+    <h2>Filmes e séries</h2>
+    <div class="categoria-videos">
+        <img src="video1.jpg" alt="Vídeo 1">
+        <img src="video2.jpg" alt="Vídeo 2">
+        <img src="video3.jpg" alt="Vídeo 3">
+    </div>
+</section>
